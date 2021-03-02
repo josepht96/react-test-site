@@ -1,0 +1,10 @@
+.NavBar {
+	margin: 0;
+	width: 100%;
+}
+.NavBarTop {
+	height: 90%;
+}
+.NavBarAbout{
+	height: 10%;
+}
