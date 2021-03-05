@@ -2,7 +2,6 @@ import React from 'react';
 import ReactDOM from 'react-dom';
 import './index.css';
 import App from './App';
-import Toggle from "./pages/toggle";
 import reportWebVitals from './reportWebVitals';
 
 ReactDOM.render(
