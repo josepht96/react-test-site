@@ -1,11 +1,19 @@
+.page {
+  height: 100%;
+  width: 100%;
+  margin: 0;
+  padding: 0;
+}
 .Left-panel {
-    float: left;
-    width: 15%;
-    height: 100%;
-    margin: 0;
+  float: left;
+  width: 13%;
+  height: 100%;
+  margin-right: 2%;
 }
 .Main-field {
-    width: 85%;
-    height: 100%; 
-    margin: 0;
+  float: right;
+  width: 85%;
+  height: 100%;
+  margin: 0;
+  text-align: left;
 }
