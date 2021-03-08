@@ -5,15 +5,34 @@
   padding: 0;
 }
 .Left-panel {
+  display: flex;
+  flex-direction: column;
+  height: auto;
   float: left;
-  width: 13%;
-  height: 100%;
-  margin-right: 2%;
+  width: 14%;
+  padding-right: 1%;
 }
 .Main-field {
+  display: flex;
+  flex-direction: column;
+  padding-left: 15px;
   float: right;
-  width: 85%;
+  width: 86%;
   height: 100%;
-  margin: 0;
   text-align: left;
+  color: rgb(255, 255, 255);
+  font-size: calc(16px);
+}
+h1 {
+  color: rgb(22, 131, 255);
+}
+h2 {
+  color: rgb(80, 162, 255);
+}
+strong {
+  color: rgb(169, 209, 255);
+}
+.Page-name {
+  color: rgb(179, 131, 255);
+  font-size: calc(18px);
 }

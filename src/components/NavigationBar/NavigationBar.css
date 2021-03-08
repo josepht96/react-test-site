@@ -1,11 +1,3 @@
-.Nav-item-brand{
-    margin-left: auto;
-    float: left;
-    /* background-color: aqua; */
+.Navbar {
+    text-align: bottom;
 }
-.nav-link {
-    position: relative;
-    display: block;
-    /* background-color: aquamarine; */
-}
-

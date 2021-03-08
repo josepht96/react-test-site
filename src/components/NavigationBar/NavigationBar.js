@@ -8,10 +8,11 @@ function NavigationBar() {
     return (
         <div>
             <Navbar bg="light" expand="lg">
-                <Navbar.Brand href="template" className="Nav-item-brand">React</Navbar.Brand>
-                <Navbar.Toggle aria-controls="basic-navbar-nav" />
                 <Navbar.Collapse id="basic-navbar-nav">
-                    <Nav className="mr-auto">
+                    <Nav className="justify-content-center" style={{ flex: 1 }}>
+                        <Nav.Item>
+                            <Navbar.Brand href="template" className="Nav-item-brand">React</Navbar.Brand>
+                        </Nav.Item>
                         <Nav.Link href="home">Home</Nav.Link>
                         <NavDropdown title="Stuff" id="basic-nav-dropdown">
                             <NavDropdown.Item href="#action/3.1">Action</NavDropdown.Item>
